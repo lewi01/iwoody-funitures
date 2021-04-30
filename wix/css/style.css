@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+a:hover{
+ color:#00ffff;
+ 
+}
+
+/* styling the nav-bar */
+#nav-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    display: flex;
+    padding: 1rem;
+    background: #000;
+    color: #fff;
+   
+    
+}
+h2{
+    flex:1 1 40rem; 
+    font-family: 'Keania One', cursive;
+}
+#nav-bar ul{
+    display: flex;
+    flex:1 1 30rem;
+    justify-content: space-around;
+    
+}
+
+/* styling description */
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.description{
+
+    padding: 2rem;
+    min-height: 50vw;
+    background:url(/images/mark-champs-Id2IIl1jOB0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.description h3 { 
+    margin-top: 14rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    color:#fff;
+    font-size: 2rem;
+}
+.description p{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    width: 70%;
+    font-weight: 800;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 15rem;
+   
+}
+/* styling container */
+.gallery{
+    display:flex;
+    flex-wrap: wrap;
+    
+    
+
+}
+.box{ 
+flex: 1 20rem;
+margin:1rem;
+}
+.box1{
+flex:1 1 20rem;
+margin:1rem;
+}
+button{
+    margin-top: 1rem;
+    background:#808080;
+    padding:1rem 3rem;
+    border:none;
+    color:#fff;
+    border-radius:0.3rem;
+
+}
+
+
+/* styling footer */
+i{
+    color: #fff;
+    padding-left: 4rem;
+}
+  .fa-facebook:hover{
+    color: #00b4db ;
+}
+.fa-instagram:hover{
+    color:#833ab4;
+}
+.fa-youtube:hover{
+    color:#ff0000 ;
+}
+.footer{
+    background: #000;
+    display: flex;
+    padding: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+/* gallary styling */
+  .box3 h3{
+    font-family: 'Fredoka One', cursive;
+    padding:1rem;
+}
+
+
+.box2 .collection{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    grid-gap:1rem;
+    margin-left:.3rem;
+    padding: 1rem 0;
+   background-color: #0f2027;
+
+}
+.box2 h3{
+    margin-top: 4rem;
+    font-family: 'Fredoka One', cursive;
+    padding:1rem;
+
+}
+.box2{
+    position: relative;
+    width: 100%;
+}
+.box3 .collection{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    grid-gap:1rem;
+    margin-left:.3rem;
+    padding: 1rem 0;
+    background-color: #0f2027;
+
+}
+
+.box3{
+    position: relative;
+    width: 100%;
+}
+
+/* service styling */
+.exbition{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    margin-left:8rem;
+    padding: 1rem;
+
+}
+.couch img{
+    width: 70%;
+}
+ .txt p {
+     margin-top: 3rem;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    max-width: 1000px;
+    margin-left: 7rem;
+    
+}
+/* contact sytling */
+
+.information{
+    background-image: url(/images/bed1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.info{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 16rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    color: #a52a2a;
+}
+.info h3{
+    padding-bottom: 2rem;
+}
+.info p{
+    padding-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
