@@ -11,7 +11,7 @@
         font-size: 500;
     }
 }
- @media (max-width:756px) {
+ @media (max-width:700px) {
      /* home styling */
      #nav-bar{
          display: flex;
@@ -46,18 +46,32 @@
      #nav-bar a:hover{
         color: #000;
      }
+     .description h3{
+         padding-top: 6rem;
+     }
      .description p{
          align-items: center;
          justify-content: center;
-         margin-left: 4rem;
-         font-size: 500;
+         margin-left: 1rem;
+         font-size: 400;
+         width: 100%;
+         height: 100%;
+     }
+     .footer{
+         padding-right: 7rem;
+         justify-content: center;
+         align-items: center;
      }
      /* styling services */
      .txt{
-         margin-top: 9rem;
-         margin-right: 6rem;
+         margin-top: 11rem;
+         margin-right: 11rem;
          align-items: center;
          justify-content: center;
+     }
+     .txt p{
+         width: 100%;
+         height: 100%;
      }
      .exbition{
          margin-top: 1rem;
@@ -66,8 +80,13 @@
          margin-right: 4rem;
          margin-bottom: 1rem;
      }
+     .exbition img{
+         width: 100%;
+         padding-left: 1rem;
+     }
      .exbition .btn-2{
-         padding: .5rem;
+         padding: .1rem;
+         margin-left: 1rem;
          
      }
      /* gallary styling */
