@@ -53,7 +53,7 @@ h2{
 
     padding: 2rem;
     min-height: 50vw;
-    background:url(/images/mark-champs-Id2IIl1jOB0-unsplash.jpg);
+    background:url(mark-champs-Id2IIl1jOB0-unsplash.jpg);
     background-size: cover;
     background-position: center;
     
@@ -199,7 +199,7 @@ i{
 /* contact sytling */
 
 .information{
-    background-image: url(/images/bed1.jpg);
+    background-image: url(bed1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
