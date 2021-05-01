@@ -131,44 +131,19 @@ i{
     align-items: center;
 }
 /* gallary styling */
+.gallary-bar{
+    z-index: 2;
+}
   .box3 h3{
     font-family: 'Fredoka One', cursive;
     padding:1rem;
 }
 
-
-.box2 .collection{
-    display:grid;
-    grid-template-columns:auto auto auto;
-    grid-gap:1rem;
-    margin-left:.3rem;
-    padding: 1rem 0;
-   background-color: #0f2027;
-
-}
 .box2 h3{
     margin-top: 4rem;
     font-family: 'Fredoka One', cursive;
     padding:1rem;
 
-}
-.box2{
-    position: relative;
-    width: 100%;
-}
-.box3 .collection{
-    display:grid;
-    grid-template-columns:auto auto auto;
-    grid-gap:1rem;
-    margin-left:.3rem;
-    padding: 1rem 0;
-    background-color: #0f2027;
-
-}
-
-.box3{
-    position: relative;
-    width: 100%;
 }
 
 /* service styling */

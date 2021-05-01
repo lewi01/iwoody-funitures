@@ -1,2 +1,78 @@
 /* mobile responsive */
- 
+/* tablet styling */
+@media (max-width:960px) {
+    .description h3{
+        margin-top: 4rem;
+    }
+    .description p{
+        align-items: center;
+        justify-content: center;
+        margin-left:7rem;
+        font-size: 500;
+    }
+}
+ @media (max-width:756px) {
+     /* home styling */
+     #nav-bar{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         max-height: 25vh;
+         margin-bottom: 1rem;
+     }
+     #nav-bar h2{
+         margin-top: 1rem;
+     }
+     #nav-bar ul{
+         flex-direction: column;
+         margin-top: .3rem;
+         width: 100%;
+         text-align: center;
+         
+     }
+     #nav-bar ul li {
+         border: 1px solid #fff;
+         margin-bottom: 1rem;
+         border-radius: 15px;
+
+        
+     }
+    
+     #nav-bar ul li:hover{
+         background-color: #fff;
+         
+     }
+     #nav-bar a:hover{
+        color: #000;
+     }
+     .description p{
+         align-items: center;
+         justify-content: center;
+         margin-left: 4rem;
+         font-size: 500;
+     }
+     /* styling services */
+     .txt{
+         margin-top: 9rem;
+         margin-right: 6rem;
+         align-items: center;
+         justify-content: center;
+     }
+     .exbition{
+         margin-top: 1rem;
+         justify-content: center;
+         align-items: center;
+         margin-right: 4rem;
+         margin-bottom: 1rem;
+     }
+     .exbition .btn-2{
+         padding: .5rem;
+         
+     }
+     /* gallary styling */
+     .box2{
+         margin-top: 11rem;
+     }
+     
+ }
