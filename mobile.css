@@ -139,10 +139,15 @@
      }
      /* contact styling */
      .mail{
-         width: 350px;
-         margin-left: .5rem;
-         margin-right: 1rem;
-     } 
-    
-     
+         font-size: 30px;
+     }
+     .p1{
+         text-align: center;
+         margin-left: .6rem;
+     }
+     .p2{
+         margin-top: -2rem;
+         text-align: start;
+         margin-left: .6rem;
+     }
  }
