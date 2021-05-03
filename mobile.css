@@ -137,5 +137,10 @@
         opacity: .4;
         text-align: center;
      }
+     /* contact styling */
+     .mail{
+         width: 400px;
+         margin-left: 1rem;
+     } 
      
  }
